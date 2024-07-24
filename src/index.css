@@ -1,0 +1,340 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: rgb(255, 203, 4);
+  align-items: center;
+  justify-content: center;
+}
+
+.main .logo img {
+  right: 50px;
+  bottom: 25px;
+  border-radius: 50%;
+  position: absolute;
+  height: 80px;
+  width: 80px;
+}
+
+.box1 {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 30vw;
+  background: rgb(229, 229, 229);
+  color: black;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.box2 {
+  height: 95vh;
+  width: 30vw;
+  background: rgb(229, 229, 229);
+  color: black;
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow-y: auto;
+}
+
+.product_names {
+  margin-top: 10px;
+}
+
+.product_names .heading {
+  font-family: "kajiro";
+  color: white;
+  background: black;
+  border-radius: 10px;
+  padding: 7px;
+  margin: auto;
+  width: 28vw;
+  height: 13vh;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.box3 {
+  height: 95vh;
+  width: 30vw;
+  background: rgb(229, 229, 229);
+  color: black;
+  border-radius: 10px;
+}
+
+.food {
+  display: flex;
+  height: 15vh;
+  width: 28vw;
+  font-family: "kajiro";
+  font-size: 30px;
+  font-weight: 500;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.food_items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  color: white;
+  background: black;
+  border-radius: 10px;
+  padding: 7px;
+}
+
+.right_item {
+  display: flex;
+  flex-direction: row;
+}
+
+.left_item button {
+  text-decoration: none;
+  background: white;
+  width: 7.6vw;
+  height: 11vh;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.left_item .a2 {
+  font-family: "kajiro";
+  font-size: 3.5rem;
+}
+
+.right_item img {
+  margin-left: 10px;
+}
+
+.food_items img {
+  border-radius: 10px;
+  height: 70px;
+  width: 70px;
+}
+
+.selected_product {
+  background: black;
+  color: white;
+  height: 28vh;
+  width: 29vw;
+  border-radius: 10px;
+  margin: auto;
+  padding: 8px;
+  margin-top: 10px;
+}
+
+.selected_product img {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+}
+
+.selected_product .top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.selected_product .a3 {
+  font-family: "kajiro";
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.selected_product .lower {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 7vh;
+  width: 28vw;
+  margin: auto;
+}
+.selected_product .a4:nth-child(1) {
+  font-family: "kajiro";
+  font-size: 30px;
+  font-weight: 500;
+  /* margin-left: 22vw; */
+  background: white;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  width: 7vw;
+  height: 5vh;
+}
+.selected_product .a4:nth-child(2) {
+  font-family: "kajiro";
+  font-size: 30px;
+  font-weight: 700;
+  /* margin-left: 22vw; */
+  background: white;
+  color: black;
+  text-align: center;
+  border-radius: 10px;
+  width: 7vw;
+  height: 5vh;
+}
+
+.box2 .btn1 {
+  text-decoration: none;
+  border-radius: 10px;
+  background: rgb(229, 229, 229);
+  color: black;
+  font-family: "kajiro";
+  border: 2px solid black;
+  font-size: 2rem;
+  font-weight: 700;
+  height: 7vh;
+  width: 5.5vw;
+  margin: 9.6px;
+}
+
+.btn1:hover {
+  background-color: rgb(255, 203, 4);
+}
+.box2 .btn2:hover {
+  background-color: rgb(255, 203, 4);
+  color: black;
+}
+
+.box2 .btn2 {
+  text-decoration: none;
+  border-radius: 10px;
+  background: black;
+  color: rgb(229, 229, 229);
+  font-family: "kajiro";
+  border: 2px solid white;
+  font-size: 2rem;
+  font-weight: 500;
+  height: 7vh;
+  width: 5.5vw;
+  margin: 0 2px;
+}
+
+.box2 .header {
+  position: sticky;
+  top: 0;
+  width: 30vw;
+  height: 15vh;
+  border-radius: 5px;
+  background: rgb(229, 229, 229);
+}
+
+.box2 .heading {
+  font-family: "kajiro";
+  color: white;
+  background: black;
+  border-radius: 10px;
+  padding: 7px;
+  margin: auto;
+  width: 28vw;
+  height: 13vh;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.box3 .heading {
+  font-family: "kajiro";
+  color: white;
+  background: black;
+  border-radius: 10px;
+  padding: 7px;
+  margin: auto;
+  width: 28vw;
+  height: 13vh;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.calculation {
+  height: 58vh;
+  width: 29vw;
+  background: #000;
+  margin: auto;
+  margin-top: 10px;
+  color: white;
+  border-radius: 10px;
+}
+
+.submitted_product {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "kajiro";
+
+  height: 11vh;
+  width: 28vw;
+  margin: auto;
+}
+
+.submitted_product img {
+  height: 48px;
+  width: 48px;
+  border-radius: 10px;
+}
+
+.submitted_product .h3 {
+  font-size: 2rem;
+  margin-left: 20px;
+  background: #ffff;
+  color: #000;
+  border-radius: 10px;
+  width: 4.5vw;
+  text-align: center;
+}
+
+.submitted_product .p1 {
+  font-size: 2rem;
+  margin-left: 20px;
+  background: #ffff;
+  color: #000;
+  border-radius: 10px;
+  width: 4vw;
+  text-align: center;
+}
+.submitted_product .p2 {
+  font-size: 2rem;
+  margin-left: 20px;
+  background: #ffff;
+  color: #000;
+  border-radius: 10px;
+  width: 7vw;
+  text-align: center;
+}
+
+.box3 .h2 {
+  margin: 9.6px;
+  font-family: "kajiro";
+  font-size: 2.5rem;
+
+  background: #ffff;
+  color: #000;
+  width: 13vw;
+  border-radius: 10px;
+  text-align: center;
+  border: 2px solid black;
+}
+.box3 .h2:hover {
+  background-color: rgb(255, 203, 4);
+  color: black;
+}
